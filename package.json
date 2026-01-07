@@ -1,0 +1,20 @@
+{
+  "name": "helio",
+  "version": "1.0.0",
+  "description": "new place",
+  "homepage": "https://github.com/maffinachi/helio#readme",
+  "bugs": {
+    "url": "https://github.com/maffinachi/helio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maffinachi/helio.git"
+  },
+  "license": "ISC",
+  "author": "maffinachi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

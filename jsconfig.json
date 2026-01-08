@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020", "DOM"],
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*", "node_modules/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*",
+    "node_modules/helia/**/*",
+    "node_modules/orbit-db/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
